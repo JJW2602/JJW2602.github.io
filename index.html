@@ -14,17 +14,15 @@
 </head>
 
 <body>
-  <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table class="main-table">
     <tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table class="section-table">
             <tbody>
               <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                  <p class="name" style="text-align: center;">
+                <td style="width:63%;vertical-align:middle">
+                  <p class="name" style="text-align:center;">
                     Jongwook Jeon
                   </p>
                   <p>
@@ -33,27 +31,28 @@
                     My ambition is to develop innovative models that enhance autonomous decision-making, contributing scalable and generalizable insights to the broader AI community.
                   </p>
                   
-                  <p style="text-align:center">
-                    <a href="mailto:jjwook2602@gmail.com">Email</a> &nbsp;/&nbsp;
-                    <a href="data/CV_JW.pdf">CV</a> &nbsp;/&nbsp;
-                    <a href="https://github.com/jjw2602/">Github</a> &nbsp;/&nbsp;
+                  <p style="text-align:center; padding-top:12px;">
+                    <a href="mailto:jjwook2602@gmail.com">Email</a>
+                    <span class="separator">|</span>
+                    <a href="data/CV_JW.pdf">CV</a>
+                    <span class="separator">|</span>
+                    <a href="https://github.com/jjw2602/">Github</a>
+                    <span class="separator">|</span>
                     <a href="https://www.notion.so/Robot-Learning-1adae11e8a1180f19163eb374df5c4e2?source=copy_link">Notes</a>
                   </p>
                 </td>
-                <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/JW.jpg"><img
-                      style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo"
+                <td style="width:32%;max-width:32%">
+                  <a href="images/JW.jpg"><img class="profile-photo" alt="profile photo"
                       src="images/JW.jpg" class="hoverZoomLink"></a>
                 </td>
               </tr>
             </tbody>
           </table>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table class="section-table">
             <tbody>
               <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle;">
-                  <h2>Research Interest</h2>
+                <td style="width:100%;vertical-align:middle;">
+                  <h2 class="title-bg">Research Interest</h2>
                   <p>
                     My research focuses on <strong>Scalable and Robot Learning.</strong> Specifically, I aim to leverage <strong>Offline Reinforcement Learning</strong> to extract meaningful temporal abstractions (<strong>Skills</strong>) from static datasets.
                     My ultimate goal is to enable robots to utilize these learned primitives to adapt robustly to novel environments.
@@ -62,12 +61,11 @@
               </tr>
             </tbody>
           </table>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table class="section-table">
             <tbody>
               <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle;">
-                  <h2>Projects</h2>
+                <td style="width:100%;vertical-align:middle;">
+                  <h2 class="title-bg">Projects</h2>
                   <p>
                   These include side projects and unpublished research work.
                   </p>
@@ -75,70 +73,82 @@
               </tr>
             </tbody>
           </table>
-          <table
-            style="width:100%;table-layout: fixed;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table class="project-table">
             <tbody>
-              <tr>
-                <td style="padding:5px;width:40%;vertical-align:middle;text-align:center;">
-                  <img src="images/L_O_LRS.png" alt="safs_small"  style="max-width:100%; border-style: none; height:auto">
+              <tr class="project-row">
+                <td class="project-image-cell">
+                  <img class="project-content-image" src="images/L_O_LRS.png" alt="safs_small">
                 </td>
-                <td width="60%" valign="middle">
-                  <a href="https://github.com/JJW2602/Learned_Optimizer_LR_Scheduler">
-                    <span class="papertitle">Optimizing Optimization and Learning Rate Scheduler</span>
-                  </a>
-                  <br>
-                  <strong>Jongwook Jeon</strong>,
-                  Subin Park,
-                  Seungwoo Kang,
-                  Sihyeon Park
-                  <br>
-                  <em>DSL_Modelling Project</em>
+                <td class="project-content-cell">
+                  <div class="project-info">
+                    <a href="https://github.com/JJW2602/Learned_Optimizer_LR_Scheduler">
+                      <span class="papertitle">Optimizing Optimization and Learning Rate Scheduler</span>
+                    </a>
+                    <span class="project-authors">
+                      <strong>Jongwook Jeon</strong>,
+                      Subin Park,
+                      Seungwoo Kang,
+                      Sihyeon Park
+                    </span>
+                    <em>DSL_Modelling Project</em>
+                  </div>
+                  <div class="project-image-mobile">
+                    <img class="project-content-image" src="images/L_O_LRS.png" alt="safs_small">
+                  </div>
                   <p></p>
-                  <p>
+                  <p class="project-description">
                     By modeling the optimizer and learning rate scheduler updates as a sequential decision process, we optimize the strategy via a combination of BC and PPO.
                   </p>
                 </td>
               </tr>
 
-              <tr>
-                <td style="padding:5px;width:40%;vertical-align:middle;text-align:center;">
-                  <img src="images/Finpt.jpg" alt="safs_small"  style="max-width:100%; border-style: none; height:auto">
+              <tr class="project-row">
+                <td class="project-image-cell">
+                  <img class="project-content-image" src="images/Finpt.png" alt="safs_small">
                 </td>
-                <td width="60%" valign="middle">
-                  <a href="https://github.com/JJW2602/FinPT">
-                    <span class="papertitle">FinPT: Finance Chatbot
+                <td class="project-content-cell">
+                  <div class="project-info">
+                    <a href="https://github.com/JJW2602/FinPT">
+                      <span class="papertitle">FinPT: Finance Chatbot</span>
+                    </a>
+                    <span class="project-authors">
+                      <strong>Jongwook Jeon</strong>*,
+                      Minkyung Baek,
+                      Kyunghwan Kim
                     </span>
-                  </a>
-                  <br>
-                  <strong>Jongwook Jeon</strong>*,
-                  Minkyung Baek,
-                  Kyunghwan Kim
-                  <br>
-                  <em>Yonsei 2nd GenAI <strong>(SilverPrize)</strong></em>
+                    <em>Yonsei 2nd GenAI <strong>(SilverPrize)</strong></em>
+                  </div>
+                  <div class="project-image-mobile">
+                    <img class="project-content-image" src="images/Finpt.png" alt="safs_small">
+                  </div>
                   <p></p>
-                  <p>
+                  <p class="project-description">
                     Motivated by the critical issue of financial illiteracy among college students, FinPT is a web service designed to make financial knowledge accessible and user-friendly. By leveraging RAG technology, FinPT retrieves real-time data to provide students with up-to-date and easy-to-understand financial information.
                   </p>
                 </td>
               </tr>
 
-              <tr>
-                <td style="padding:5px;width:40%;vertical-align:middle;text-align:center;">
-                  <img src="images/pet_body_measurement.png" alt="safs_small"  style="max-width:100%; border-style: none; height:auto">
+              <tr class="project-row">
+                <td class="project-image-cell">
+                  <img class="project-content-image" src="images/pet_body_measurement.png" alt="safs_small">
                 </td>
-                <td width="60%" valign="middle">
-                  <a href="data/pet.pdf">
-                    <span class="papertitle">Improving Dog-Length Estimation Framework
+                <td class="project-content-cell">
+                  <div class="project-info">
+                    <a href="data/pet.pdf">
+                      <span class="papertitle">Improving Dog-Length Estimation Framework</span>
+                    </a>
+                    <span class="project-authors">
+                      Jungwoo Kim, Hyunjin Kim, Chaemin Hwang, Jeongwoo Lee, Joowon Yang,
+                      <strong>Jongwook Jeon</strong>*,
+                      Minkyu Kim, Youngil Lee, Yingjun Shen, Hyunah Ko
                     </span>
-                  </a>
-                  <br>
-                  Jungwoo Kim, Hyunjin Kim, Chaemin Hwang, Jeongwoo Lee, Joowon Yang,
-                  <strong>Jongwook Jeon</strong>*,
-                  Minkyu Kim, Youngil Lee, Yingjun Shen, Hyunah Ko
-                  <br>
-                  <em>DSL x Petnow project</em>
+                    <em>DSL x Petnow project</em>
+                  </div>
+                  <div class="project-image-mobile">
+                    <img class="project-content-image" src="images/pet_body_measurement.png" alt="safs_small">
+                  </div>
                   <p></p>
-                  <p>
+                  <p class="project-description">
                     To achieve accurate pet body measurements from a single 2D image, we advanced our methodology by transitioning from depth estimation models to a direct approach utilizing 3D reconstruction.
                   </p>
                 </td>
@@ -146,45 +156,45 @@
 
             </tbody>
           </table>
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <table class="section-table">
             <tbody>
               <tr>
                 <td>
-                  <h2>Seminars</h2>
+                  <h2 class="title-bg">Seminars</h2>
                 </td>
               </tr>
             </tbody>
           </table>
-          <table width="100%" align="center" border="0" cellpadding="20">
+          <table class="project-table" style="margin-top: 12px;">
             <tbody>
-
-              <tr>
-                <td style="padding:0px;width:30%;vertical-align:middle;text-align:center;">
-                  <img src="images/RL_seminar.jpg" width="200" height="160"></td>
-                <td width="70%" valign="center">
-                  <a href="https://drive.google.com/drive/folders/1LNP0HlLPmvLq3e9IYERlt-xdquAYQkDC?usp=sharing">
-                    <span class="papertitle">Basic Reinforcement Seminar</span>
-                  </a>
-                  <br>
+              <tr class="project-row">
+                <td class="project-image-cell">
+                  <img class="project-content-image" src="images/RL_seminar.png" alt="RL seminar">
+                </td>
+                <td class="project-content-cell">
+                  <div class="project-info">
+                    <a href="https://drive.google.com/drive/folders/1LNP0HlLPmvLq3e9IYERlt-xdquAYQkDC?usp=sharing">
+                      <span class="papertitle">Basic Reinforcement Seminar</span>
+                    </a>
+                  </div>
+                  <div class="project-image-mobile">
+                    <img class="project-content-image" src="images/RL_seminar.png" alt="RL seminar">
+                  </div>
                   <p></p>
-                  <p>
+                  <p class="project-description">
                     Delivered a comprehensive 5-week seminar series on Reinforcement Learning to the club team members in in Yonsei Data Science Lab Team. This series provided a theoretical explanation of Reinforcement based on CS285 & CAS4160.
                   </p>
                 </td>
               </tr>
-
-        
-              
             </tbody>
           </table>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <table class="section-table" style="padding-top:40px;">
             <tbody>
               <tr>
-                <td style="padding:0px">
+                <td style="padding:0px;">
                   <br>
-                  <p style="text-align:right;font-size:small;">
-                    Website source code credit to <a href="https://github.com/jonbarron/jonbarron_website">Dr. Jon Barron</a>.
+                  <p style="text-align:right;font-size:small; color: lightgray;">
+                    Website source code credit to <a style="color:lightgray; text-decoration: underline;" href="https://github.com/jonbarron/jonbarron_website">Dr. Jon Barron</a>.
                   </p>
                 </td>
               </tr>
