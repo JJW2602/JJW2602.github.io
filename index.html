@@ -11,13 +11,9 @@
   <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YL8MEXMLDK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-YL8MEXMLDK');
-  </script>
+  <script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"></script>
+  <script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.25.0-min.js.gz"></script>
+  <script>window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init('b7c5f82a0caab1692698e52247fd9a8e', {"autocapture":{"elementInteractions":true}});</script>
 </head>
 
 <body>
