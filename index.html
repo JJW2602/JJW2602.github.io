@@ -58,10 +58,23 @@
                 <td style="width:100%;vertical-align:middle;">
                   <h2 class="title-bg">Research Interest</h2>
                   <p>
-                    My research focuses on <strong>Scalable and Robot Learning.</strong> Specifically, I aim to leverage <strong>Offline Reinforcement Learning</strong> to extract meaningful temporal abstractions (<strong>Skills</strong>) from static datasets.
-                    My ultimate goal is to enable robots to utilize these learned primitives to adapt robustly to novel environments.
+                    My research is driven by the goal of building <strong>generalist robots</strong> that can robustly adapt to the complexities of the real world. To this end, I am particularly interested in three complementary research directions:
                   </p>
-                </td> 
+                  <ul style="list-style: none; padding-left: 20px; margin-top: 8px;">
+                    <li style="margin-bottom: 12px;">
+                      <strong>Unsupervised RL:</strong>
+                      learning how agents can autonomously discover diverse and reusable skills without extrinsic rewards, and how such skills can support efficient adaptation to downstream tasks.
+                    </li>
+                    <li style="margin-bottom: 12px;">
+                      <strong>Skill-based / Hierarchical RL:</strong>
+                      understanding how reusable skills can improve generalization and how they can be composed into coherent long-horizon behaviors with minimal bias and error accumulation at skill boundaries.
+                    </li>
+                    <li>
+                      <strong>RL Fine-tuning for Generalization Beyond Imitation Learning:</strong>
+                      improving the robustness and out-of-distribution generalization of imitation-learned policies through reinforcement learning fine-tuning, with particular interest in flow-matching policies and humanoid control.
+                    </li>
+                  </ul>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -120,6 +133,32 @@
           </table>
           <table class="project-table">
             <tbody>
+              <tr class="project-row">
+                <td class="project-image-cell">
+                  <img class="project-content-image" src="images/L_O_LRS.png" alt="safs_small">
+                </td>
+                <td class="project-content-cell">
+                  <div class="project-info">
+                    <a href="https://github.com/JJW2602/Learned_Optimizer_LR_Scheduler">
+                      <span class="papertitle">Optimizing Optimization and Learning Rate Scheduler</span>
+                    </a>
+                    <span class="project-authors">
+                      <strong>Jongwook Jeon</strong>,
+                      Subin Park,
+                      Seungwoo Kang,
+                      Sihyeon Park
+                    </span>
+                  </div>
+                  <div class="project-image-mobile">
+                    <img class="project-content-image" src="images/L_O_LRS.png" alt="safs_small">
+                  </div>
+                  <p></p>
+                  <p class="project-description">
+                    By modeling the optimizer and learning rate scheduler updates as a sequential decision process, we optimize the strategy via a combination of BC and PPO.
+                  </p>
+                </td>
+              </tr>
+
               <tr class="project-row">
                 <td class="project-image-cell">
                   <img class="project-content-image" src="images/L_O_LRS.png" alt="safs_small">
