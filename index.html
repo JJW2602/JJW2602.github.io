@@ -58,20 +58,16 @@
                 <td style="width:100%;vertical-align:middle;">
                   <h2 class="title-bg">Research Interest</h2>
                   <p>
-                    My research is driven by the goal of building <strong>generalist robots</strong> that can robustly adapt to the complexities of the real world. To this end, I am particularly interested in three complementary research directions:
+                    My research interests center on building <strong>generalizable generative policies</strong> that can adapt across offline datasets, online interaction, and long-horizon real-world tasks. In particular, I focus on two directions:
                   </p>
                   <ul style="list-style: none; padding-left: 20px; margin-top: 8px;">
                     <li style="margin-bottom: 12px;">
-                      <strong>Unsupervised RL:</strong>
-                      learning how agents can autonomously discover diverse and reusable skills without extrinsic rewards, and how such skills can support efficient adaptation to downstream tasks.
+                      <strong>RL Fine-tuning for Generative Policy Models:</strong><br>
+                      improving imitation-learned policies through RL fine-tuning, with a focus on flow-based and diffusion-based policy models.
                     </li>
                     <li style="margin-bottom: 12px;">
-                      <strong>Skill-based / Hierarchical RL:</strong>
-                      understanding how reusable skills can improve generalization and how they can be composed into coherent long-horizon behaviors with minimal bias and error accumulation at skill boundaries.
-                    </li>
-                    <li>
-                      <strong>RL Fine-tuning for Generalization Beyond Imitation Learning:</strong>
-                      improving the robustness and out-of-distribution generalization of imitation-learned policies through reinforcement learning fine-tuning, with particular interest in flow-matching policies and humanoid control.
+                      <strong>Skill-based and Hierarchical Reinforcement Learning:</strong><br>
+                      composing reusable skills for long-horizon tasks, especially in VLA models and flow-/diffusion-based policies.
                     </li>
                   </ul>
                 </td>
@@ -84,10 +80,41 @@
               <tr>
                 <td>
                   <h2 class="title-bg">Publications</h2>
+                  <p style="font-size: small; margin-top: 4px; margin-bottom: 0;">(*: indicates equal contribution)</p>
                 </td>
               </tr>
             </tbody>
           </table>
+          <table class="project-table" style="margin-top: 12px;">
+            <tbody>
+              <tr class="project-row">
+                <td class="project-image-cell">
+                  <img class="project-content-image" src="images/optiflow_algorithm.png" alt="OptiFlow">
+                </td>
+                <td class="project-content-cell">
+                  <div class="project-info">
+                    <a href="https://jjw2602.github.io/">
+                      <span class="papertitle">Learning Multimodal One-step Flow Policy via Value-weighted Optimal Transport</span>
+                    </a>
+                    <em>Under Review</em>
+                    <span class="project-authors">
+                      Jaehun Shon*, Jinha Choi*,
+                      <strong>Jongwook Jeon</strong>,
+                      <a href="https://www.jmlee.kr/">Jongmin Lee</a>
+                    </span>
+                  </div>
+                  <div class="project-image-mobile">
+                    <img class="project-content-image" src="images/optiflow_algorithm.png" alt="OptiFlow">
+                  </div>
+                  <p></p>
+                  <p class="project-description">
+                    We introduce OptiFlow, a novel approach for learning multimodal one-step flow policies using value-weighted optimal transport, enabling more effective and efficient policy learning in complex environments.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
           <table class="project-table" style="margin-top: 12px;">
             <tbody>
               <tr class="project-row">
@@ -117,7 +144,6 @@
               </tr>
             </tbody>
           </table>
-
 
           <table class="section-table">
             <tbody>
